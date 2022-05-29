@@ -1,0 +1,33 @@
+body{
+
+}
+
+h1{
+    font-size: 50px;
+    border: 1px solid red;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+p{
+    font-size: 50px;
+    border:  1px solid red;
+    margin: 0px 0px 0px 0px; /*this does top right bottom left */
+    margin: 0px 0px; /* this does top bottom left right */
+    /*margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px; these are the basic margin and padding instructions */
+}
+a{
+    font-size: 50px;
+    border: 1px solid red;
+}
+img{
+    display: block;
+}

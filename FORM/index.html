@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Form Elements</h1>
+    <hr>
+    <!-- form element containing children form elements -->
+    <form>
+        <label for="">Name</label>
+        <!-- input for text/character information -->
+        <!-- type attribute specifies what data can be entered -->
+        <!-- place holder attribute puts text to help user 
+            complete the form element -->
+        <br>
+        <input type="text" placeholder="John Brown">
+        <br><br>
+        <label for="">Email</label>
+        <br>
+        <input type="text" placeholder="john@mail.com">
+        <br><br>
+        <label for="">Password</label>
+        <br>
+        <input type="text">
+        <br><br>
+        <!-- text area -->
+        <label for="">Describe your complaint</label>
+        <br>
+        <textarea cols="30" rows="10"></textarea>
+        <br>
+        <!-- checkbox -->
+        <input type="checkbox">
+        <label for="">I agree to be a part of the human centepede 
+            as I have no time to read through this agreement</label>
+            <br>
+        <input type="checkbox">
+        <label for="">I do not agree to be a part of the human centepede
+            as I have read everything in the agreement</label>
+        <!-- radio button -->
+        <br>
+        <p>Select the card type for this transacion:</p>
+        <input type="radio" name="card" value="visa" checked>
+        <label for="">Visa</label>
+        <input type="radio" name="card" value="mastercard">
+        <label for="">Mastercard</label>
+        <br>
+        <br>
+        <!-- select element -->
+        <label for="">Select Country</label>
+        <select>
+            <option value="Jamaica" selected>Jamaica</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Russia">Russia</option>
+        </select>
+        <br><br>
+        <hr>
+        <!-- two ways to make a button-->
+        <input type="button" value="Submit">
+        <button>Reset</button>
+
+
+        
+
+
+    </form>
+</body>
+</html>

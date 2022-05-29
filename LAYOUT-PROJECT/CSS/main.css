@@ -1,0 +1,100 @@
+/* spacing system (px)
+2/ 4/ 8/ 12/ 16/...
+
+font size system (px)
+10/ 12/ 14/ 16/ 18...*/
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* class selector */
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+h1, h2, h3, p{
+    margin-bottom: 24px;
+
+    /* .feature > h3
+    .best-seller > h3{
+        margin-bottom: 24px;
+         } this targets elements within the class */
+    
+}
+
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.1;
+}
+img{
+    /* rule for all images */
+    width: 100%;    
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    margin: 40px auto 80px auto;
+}
+
+.feature-section{
+    margin-bottom: 80px;
+}
+
+.testimonial-section{
+    margin-bottom: 80px;
+}
+
+.best-seller-section{
+    margin-bottom: 128px;
+}
+
+/* 2 column grid class template */
+.grid-2-c{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+}
+
+/* 3 column grid class template */
+.grid-3-c{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr) */
+    column-gap: 80px;
+    row-gap: 40px;
+}
+
+.icon{
+    /* this is how to apply an icon customization and also how to get a circular border */
+    width: 80px;
+    height: 80px;
+    padding: 18px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.btn{
+    text-decoration: none; /*this removes the underline*/
+    background-color: plum;
+    color: #333333;
+    padding: 8px 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: royalblue;
+}
