@@ -182,8 +182,14 @@ nav ul ul li a{
     object-fit: cover;
 }
 
+.news-item h3{
+    margin-left: 16px;
+    text-align: justify;
+}
+
 .news-item p{
     text-align: justify;
+    margin-left: 16px;
 }
 
 .updates-section h2{
