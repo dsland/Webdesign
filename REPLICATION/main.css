@@ -33,50 +33,41 @@ h1 h2 h3 h4 h5 h6{
     vertical-align: middle;
 }
 
-nav{
-    width: 100%;
-    height: 90px;
-    padding: 8px 12px;
-}
-
-.nav-links{
-    display: flex;
-    list-style: none;
-}
-
-.navbar{
+.top-nav{
+    margin: auto;
     display: flex;
     align-items: center;
-}
-
-.navbar-right{
     justify-content: space-between;
+}   
+
+.top-nav nav{
+    padding-right: 16px;
 }
 
-nav ul li a{
-    color: #e45826;
+.top-nav nav ul li{
+    display: inline;
 }
 
-.nav-item a{
-    display: inline-block;
-    padding: 12px 16px;
+.top-nav nav ul li a{
+    padding: 8px 16px;
     text-decoration: none;
 }
 
-.nav-item:hover a{
-    background-color: #e45826;
-    color: #fff;
+.off{
+    color: #e45826;
 }
 
-nav ul li a .active{
+.top-nav nav ul li a:hover{
+    background: #e45826;
     color: #fff;
 }
 
 .active{
-    padding: 12px 16px;
-    background-color: #e45826;
     color: #fff;
+    background: #e45826;
 }
+
+
 /* HEADING */
 
 .heading-section{
@@ -281,6 +272,11 @@ nav ul li a .active{
     align-items: center;
 }
 
+.test:hover{
+    color: #fff;
+    background: #e45826;
+}
+
 .test p{
     margin-top: 16px;
 }
@@ -309,7 +305,6 @@ nav ul li a .active{
     width: 100%;
     height: 100px;
     background-color: #4a3933;
-    border: 1px solid red;
 }
 
 .btn4{
@@ -322,4 +317,46 @@ nav ul li a .active{
     color: #fff;
     padding: 8px 0px;
     font-size: 18px;
+}
+
+.footer-section{
+    background: #f8f5f1;
+    padding: 4% 15%;
+    padding-bottom: 80px;
+
+}
+
+.footer-section nav{
+    padding-right: 15%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.footer-section nav h1{
+    margin-bottom: 8px;
+}
+
+.footer-section nav ul{
+    list-style: none;
+    line-height: 1.5;
+}
+
+.footer-section a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #e45826;
+}
+
+.footer-section a > i{
+    color: #4a3933;
+}
+
+.footer-section p{
+    font-family: 'Fira Sans', sans-serif;   
+    text-align: center;
+    font-size: 18px;
+    color: #e45826;
+    font-weight: 400;
 }
