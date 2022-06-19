@@ -170,6 +170,9 @@ nav ul ul li a{
 }
 
 .news-item{
+    display: flex;
+    flex-direction: ;
+    flex-wrap: nowrap;
     border: 2px solid #222831;
     padding: 16px;
 }
